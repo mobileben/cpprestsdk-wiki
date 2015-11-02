@@ -1,21 +1,21 @@
 ## Getting Started
 
-*   [Getting started tutorial](https://casablanca.codeplex.com/wikipage?title=Http%20Client%20Tutorial)
-*   [How to use the C++ Rest SDK NuGet package](https://casablanca.codeplex.com/wikipage?title=Using%20NuGet%20to%20add%20the%20C%2b%2b%20REST%20SDK%20to%20a%20VS%20project&referringTitle=Documentation)
-*   [How to build for Windows](/wikipage?title=How%20to%20setup%2c%20build%2c%20and%20run%20tests%20on%20Windows)
-*   [How to build for Linux](/wikipage?title=Setup%20and%20Build%20on%20Linux&referringTitle=Documentation)
-*   [How to build for Mac OS X](https://casablanca.codeplex.com/wikipage?title=Setup%20and%20Build%20on%20OSX&referringTitle=Documentation)
-*   [How to build for iOS](https://casablanca.codeplex.com/wikipage?title=Setup%20and%20Build%20on%20IOS&referringTitle=Documentation)
-*   [How to build for Android](https://casablanca.codeplex.com/wikipage?title=Use%20on%20Android&referringTitle=Documentation)
-*   [Make a contribution and report issues](/wikipage?title=Make%20a%20contribution&referringTitle=Documentation)
-*   [Versioning and file names](/wikipage?title=Versioning&referringTitle=Documentation)
+*   [Getting started tutorial](Getting-Started-Tutorial)
+*   [How to use the C++ Rest SDK NuGet package](How-to-use-the-C---Rest-SDK-NuGet-package)
+*   [How to build for Windows](How-to-build-for-Windows)
+*   [How to build for Linux](How-to-build-for-Linux)
+*   [How to build for Mac OS X](How-to-build-for-Mac-OS-X)
+*   [How to build for iOS](How-to-build-for-iOS)
+*   [How to build for Android](How-to-build-for-Android)
+*   [Make a contribution and report issues](Make-a-contribution-and-report-issues)
+*   [Versioning and file names](Versioning-and-File-Names)
 
 ## Learn the basics
 
 *   [Reference Documentation](http://microsoft.github.io/cpprestsdk/namespaces.html)
-*   [Samples](/wikipage?title=Samples&referringTitle=Documentation)
-*   [Community Blog Posts and Samples](/wikipage?title=Blog%20Posts&referringTitle=Documentation)
-*   [FAQ](https://casablanca.codeplex.com/wikipage?title=FAQ)
+*   [Samples](Samples)
+*   [Community Blog Posts and Samples](Community-Blog-Posts-and-Samples)
+*   [FAQ](FAQ)
 
 ## Feature Overview
 
@@ -149,7 +149,7 @@ Here is a matrix of the features in C++ REST SDK and the platforms we support. C
 
 ## Questions?
 
-*   Take a look at our [FAQ](/wikipage?title=FAQ&referringTitle=Documentation)
+*   Take a look at our [FAQ](FAQ)
 *   Post a question on the [forums](http://casablanca.codeplex.com/discussions)
 *   Report a [bug](https://casablanca.codeplex.com/WorkItem/Create)
 *   Contact us directly askcasablanca at Microsoft dot com
