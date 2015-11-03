@@ -2,9 +2,9 @@
 
 ## Setup [Git](http://git-scm.com/)
 
-If you use PowerShell, we recommend installing Posh-Git ([here](https://casablanca.codeplex.com/wikipage?title=Posh-Git&referringTitle=How%20to%20setup%2c%20build%2c%20and%20run%20tests%20on%20Windows) is how).  
+If you use PowerShell, we recommend installing Posh-Git ([here](Posh-git) is how).  
 
-If you use cmd.exe, open the **Developer Command Prompt for VS2013** ([here](https://casablanca.codeplex.com/wikipage?title=Developer%20Command%20Prompt%20for%20VS&referringTitle=How%20to%20setup%2c%20build%2c%20and%20run%20tests%20on%20Windows) is how)  
+If you use cmd.exe, open the **Developer Command Prompt for VS2013** ([here](Setting-up-Visual-Studio-command-line-prompt) is how)  
 
 ## Get the source
 
