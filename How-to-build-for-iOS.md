@@ -49,6 +49,7 @@ The script `boost.sh` provided by the boostoniphone project has a variable at th
 
 ```
 git apply ../fix_boost_version.patch
+chmod +x boost.sh
 ./boost.sh
 ```
 
