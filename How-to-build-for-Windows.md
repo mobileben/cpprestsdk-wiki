@@ -9,7 +9,7 @@ If you use cmd.exe, open the **Developer Command Prompt for VS2013** ([here](Set
 ## Get the source
 
 ```bash
-git clone https://git01.codeplex.com/casablanca
+git clone https://github.com/Microsoft/cpprestsdk.git casablanca
 ```
 
 This will clone Casablanca source into a directory named _casablanca_.  
