@@ -8,7 +8,7 @@ Second, while our dependencies require a Linux system to build, once they are bu
 
 For this walkthrough, we assume you are working within the <span class="codeInline">Build_Android</span> directory of the C++ REST SDK.  
 
-<pre>git clone https://git01.codeplex.com/casablanca
+<pre>git clone https://github.com/Microsoft/cpprestsdk.git casablanca
 cd casablanca/Build_android
 </pre>
 
