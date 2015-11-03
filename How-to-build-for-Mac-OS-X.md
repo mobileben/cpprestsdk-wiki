@@ -15,7 +15,7 @@ brew install cmake git openssl boost libiconv
 4\. Clone the project using Git (it will be stored in the folder "casablanca"):  
 
 ```
-git clone https://git.codeplex.com/casablanca
+git clone https://github.com/Microsoft/cpprestsdk.git casablanca
 ```
 
 Going forward, you will want to pull from the _master_ branch, which will always contain the last known release.  
