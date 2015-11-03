@@ -8,7 +8,7 @@ The C++ Rest SDK NuGet package allows you to easily add Casablanca to an applica
 
 ![managenuget.PNG](http://download-codeplex.sec.s-msft.com/Download?ProjectName=casablanca&DownloadId=812863 "managenuget.PNG")  
 
-More detailed instruction for setting up our NuGet package can be located [here](https://casablanca.codeplex.com/wikipage?title=Using%20NuGet%20to%20add%20the%20C%2b%2b%20REST%20SDK%20to%20a%20VS%20project). If you are developing for Linux, Mac, or iOS take a look at our instructions under [documentation](https://casablanca.codeplex.com/documentation) on how to build Casablanca.
+More detailed instruction for setting up our NuGet package can be located [here](How-to-use-the-C---Rest-SDK-NuGet-package). If you are developing for Linux, Mac, or iOS take a look at our instructions under [documentation](Home) on how to build Casablanca.
 
 ### Setting up Includes and Namespaces
 
@@ -73,7 +73,7 @@ In this tutorial we are going to asynchronously make a request to [http://www.bi
 
 </div>
 
-Here we are opening a raw byte stream to a file called results.html. Since this is a potentially blocking I/O operation it is being done asynchronously - you will see this pattern used in Casablanca consistently. Read more about task-based asynchronous programming [here](https://casablanca.codeplex.com/wikipage?title=Programming%20with%20Tasks&referringTitle=Documentation)  
+Here we are opening a raw byte stream to a file called results.html. Since this is a potentially blocking I/O operation it is being done asynchronously - you will see this pattern used in Casablanca consistently. Read more about task-based asynchronous programming [here](Programming-with-Tasks)  
 
 Next create an http_client and make the actual HTTP request. Update the lambda to the following:  
 
@@ -164,7 +164,7 @@ If you then open up results.html you should see something like this:
 
 ![results.PNG](http://download-codeplex.sec.s-msft.com/Download?ProjectName=casablanca&DownloadId=813479 "results.PNG")  
 
-Congratulations you just ran your first program with Casablanca! A good next step is to take a look at our [Documentation](https://casablanca.codeplex.com/documentation). Also feel free to ask any questions in our [discussion forum](https://casablanca.codeplex.com/discussions). Below is all the source code for the example created during this tutorial. A working sample located under Release\samples\BingRequest in our source code is very similar to this as well.  
+Congratulations you just ran your first program with Casablanca! A good next step is to take a look at our [Documentation](Home). Also feel free to ask any questions in our [discussion forum](https://casablanca.codeplex.com/discussions). Below is all the source code for the example created during this tutorial. A working sample located under Release\samples\BingRequest in our source code is very similar to this as well.  
 
 ```c++
 #include <cpprest/http_client.h>
