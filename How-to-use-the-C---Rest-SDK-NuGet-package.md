@@ -16,6 +16,6 @@ From the [NuGet website:](http://docs.nuget.org/docs/start-here/overview)
 
 *   That's it! The SDK is downloaded, installed, and the project properties including header files and library paths have been set for you. You can install NuGet packages on Visual Studio 2012 and 2013.
 
-*   To get started with your first application using the C++ REST SDK, we recommend you start with the [http_client tutorial](https://casablanca.codeplex.com/wikipage?title=Http%20Client%20Tutorial).
+*   To get started with your first application using the C++ REST SDK, we recommend you start with the [http_client Tutorial](Getting-Started-Tutorial).
 
 **Note: Currently the NuGet packages for C++ are cached on a per-solution basis. If you would like support for global package installation, please voice your feedback on the [NuGet discussion forum](https://nuget.codeplex.com/discussions/429991)**
