@@ -9,7 +9,7 @@
 
 3\. Clone the project using Git (it will be stored in the folder "casablanca"):  
 
-<pre>git clone https://git.codeplex.com/casablanca
+<pre>git clone https://github.com/Microsoft/cpprestsdk.git casablanca
 </pre>
 
 Going forward, you will want to pull from the _master_ branch, which will always contain the last known release.  
