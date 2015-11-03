@@ -13,7 +13,7 @@ Finally, you will need to add some small initialization code detailed under [Sta
 
 ## Non-NuGet
 
-First, follow the steps here: [Setup and Build on Android](https://casablanca.codeplex.com/wikipage?title=Setup%20and%20Build%20on%20Android&referringTitle=Use%20on%20Android)  
+First, follow the steps here: [Setup and Build on Android](How-to-build-for-Android-on-Linux-(2.3))  
 
 You will need to link against the following from your project:  
 
