@@ -1,6 +1,6 @@
 # How to build and setup on iOS
 
-First, follow all the instructions on [Setup and Build on OSX](https://casablanca.codeplex.com/wikipage?title=Setup%20and%20Build%20on%20OSX&referringTitle=Setup%20and%20Build%20on%20iOS). While some steps could be skipped if you _only_ want to build for iOS, it is useful to diagnose problems during the initial iOS project setup by replicating it on OSX.  
+First, follow all the instructions on [Setup and Build on OSX](How-to-build-for-Mac-OS-X). While some steps could be skipped if you _only_ want to build for iOS, it is useful to diagnose problems during the initial iOS project setup by replicating it on OSX.  
 
 The C++ REST SDK depends on Boost and OpenSSL when used on iOS. It is a non-trivial task to cross-compile libraries for iOS, however there are scripts available online with nonrestrictive licenses to compile many popular libraries -- among these libraries are Boost and OpenSSL.  
 
