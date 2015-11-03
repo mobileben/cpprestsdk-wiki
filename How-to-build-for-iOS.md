@@ -9,7 +9,7 @@ This document will walk through the steps to build the C++ REST SDK and its depe
 For this walkthrough, we assume you are working within the <span class="codeInline">Build_iOS</span> directory of the project.  
 
 ```
-git clone https://git.codeplex.com/casablanca
+git clone https://github.com/Microsoft/cpprestsdk.git casablanca
 pushd casablanca/Build_iOS
 ```
 
