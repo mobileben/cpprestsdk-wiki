@@ -1,6 +1,6 @@
 # How to use the C++ REST SDK on Android (2.3+)
 
-The easiest way to use the C++ REST SDK on android is to add the "C++ REST SDK - Android" NuGet package available via Visual Studio 2015 (including the free Community Edition). Go to [Using NuGet to add the C++ REST SDK to a VS project](https://casablanca.codeplex.com/wikipage?title=Using%20NuGet%20to%20add%20the%20C%2b%2b%20REST%20SDK%20to%20a%20VS%20project&referringTitle=Use%20on%20Android) for general information about adding NuGet packages.  
+The easiest way to use the C++ REST SDK on android is to add the "C++ REST SDK - Android" NuGet package available via Visual Studio 2015 (including the free Community Edition). Go to [Using NuGet to add the C++ REST SDK to a VS project](How-to-use-the-C---Rest-SDK-NuGet-package) for general information about adding NuGet packages.  
 
 After adding the package, you will need to enable exceptions, rtti, c++11, and the GNU standard library (gnustl_static). These options are all found under <span class="codeInline">Configuration Properties</span> as follows:  
 
