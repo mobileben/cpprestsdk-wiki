@@ -1,8 +1,8 @@
 # How to build and setup for Android on Linux (2.3+)
 
-**Note: if you are on Windows, we now have a NuGet package! Go straight to [Use on Android](https://casablanca.codeplex.com/wikipage?title=Use%20on%20Android&referringTitle=Setup%20and%20Build%20on%20Android) to get started.**  
+**Note: if you are on Windows, we now have a NuGet package! Go straight to [Use on Android](How-to-build-for-Android) to get started.**  
 
-First, follow all the instructions on [Setup and Build on Linux](https://casablanca.codeplex.com/wikipage?title=Setup%20and%20Build%20on%20Linux&referringTitle=Setup%20and%20Build%20on%20Android). While some steps could be skipped if you _only_ want to build for Android, it is useful to diagnose problems with a desktop build first.  
+First, follow all the instructions on [Setup and Build on Linux](How-to-build-for-Linux). While some steps could be skipped if you _only_ want to build for Android, it is useful to diagnose problems with a desktop build first.  
 
 Second, while our dependencies require a Linux system to build, once they are built you can transfer the products to a Windows computer and use them with your existing Android project under Eclipse. More information on this is provided in the relevant step. The C++ REST SDK depends on Boost, libiconv, and OpenSSL when used on Android. The script below will compile all of these dependencies for you.  
 
@@ -32,7 +32,7 @@ This will build armv7 binaries under the <span class="codeInline">build.armv7.de
 
 ## Using the C++ REST SDK
 
-See [Use on Android](https://casablanca.codeplex.com/wikipage?title=Use%20on%20Android&referringTitle=Setup%20and%20Build%20on%20Android).  
+See [Use on Android](How-to-build-for-Android).  
 
 ## Running Tests
 
