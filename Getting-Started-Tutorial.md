@@ -109,7 +109,7 @@ The next step is to hook up another task continuation to handle the response fro
 
 </div>
 
-The task returned from http_client::request is signaled once the HTTP headers from the response arrive. is means the response body may still be in flight, to be received later. The returned task produces an http_response object. There are several ways to access the response body. Fundamentally the response body is just a stream of bytes and can be accessed as a stream, but we also provide convenience APIs for extracting the body as a string or a json value: http_response::extract_string() and http_response::extract_json(). You also can be notified that the response body has arrived entirely with the http_response::content_ready() API.  
+The task returned from http_client::request is signaled once the HTTP headers from the response arrive. This means the response body may still be in flight, to be received later. The returned task produces an http_response object. There are several ways to access the response body. Fundamentally the response body is just a stream of bytes and can be accessed as a stream, but we also provide convenience APIs for extracting the body as a string or a json value: http_response::extract_string() and http_response::extract_json(). You also can be notified that the response body has arrived entirely with the http_response::content_ready() API.  
 
 To write the response body into a file we access the underlying response stream and write its entire contents into the file stream. Add the following call to read from the response body.  
 
