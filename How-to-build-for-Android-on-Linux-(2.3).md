@@ -8,9 +8,10 @@ Second, while our dependencies require a Linux system to build, once they are bu
 
 For this walkthrough, we assume you are working within the <span class="codeInline">Build_Android</span> directory of the C++ REST SDK.  
 
-<pre>git clone https://github.com/Microsoft/cpprestsdk.git casablanca
+```bash
+git clone https://github.com/Microsoft/cpprestsdk.git casablanca
 cd casablanca/Build_android
-</pre>
+```
 
 ## Install the Android NDK
 
@@ -23,10 +24,11 @@ For this tutorial, we assume it is installed at <span class="codeInline">~/andro
 
 ## Building the C++ REST SDK
 
-<pre>mkdir build
+```bash
+mkdir build
 cd build
 ../configure.sh --ndk ~/android-ndk-r10
-</pre>
+```
 
 This will build armv7 binaries under the <span class="codeInline">build.armv7.debug/Binaries</span> and <span class="codeInline">build.armv7.release/Binaries</span> folders.  
 
@@ -38,15 +40,17 @@ See [Use on Android](How-to-build-for-Android).
 
 If you want to run the tests for Android we have a test runner project that can used. All the tests can be built by running msbuild from the command line. For example the following setups up the Visual Studio tools and builds x86 Debug for the simulator.  
 
-<pre>.\setup_ps_env_VS2015.ps1
+```bash
+.\setup_ps_env_VS2015.ps1
 cd Release
 msbuild /p:Platform=x86 /p:Configuration=Debug
-</pre>
+```
 
 Once the build completes open the following androidproj file in Visual Studio, which packages the tests.  
 
-<pre>Release\tests\common\TestRunner\vs14.android\TestRunner.android.Packaging\TestRunner.android.Packaging.androidproj
-</pre>
+```bash
+Release\tests\common\TestRunner\vs14.android\TestRunner.android.Packaging\TestRunner.android.Packaging.androidproj
+```
 
 Make sure the configuration is x86 Debug and then start debugging with F5\. This will launch the Android emulator and start running the tests. Output of the tests goes to Logcat, which can be brought up the Visual Studio menu with Tools->Android Tools->Logcat. Look for messages with the tag 'UnitTestpp', in particular at the end of running the tests there are several '--- Flush buffer ---' messages in a row.  
 
