@@ -74,7 +74,7 @@ This completes building Boost.
 
 ## Preparing the C++ REST SDK build
 
-The C++ REST SDK uses CMake for cross-platform compatibility. To build on iOS, we specifically use the toolchain file provided by a ios-cmake fork on GitHub. Also unless you have the Clang compiler on your path the toolchain will need to be patched to correctly look in /usr/bin/.  
+The C++ REST SDK uses CMake for cross-platform compatibility. To build on iOS, we specifically use the toolchain file provided by a ios-cmake fork on GitHub. Also, you need to use the Clang compiler. This can easily be done by applying our patch. 
 
 ```
 git clone https://github.com/cristeab/ios-cmake.git
