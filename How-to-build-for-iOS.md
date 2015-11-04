@@ -45,10 +45,10 @@ git clone https://gist.github.com/c629ae4c7168216a9856.git boostoniphone
 pushd boostoniphone
 ```
 
-The script `boost.sh` provided by the boostoniphone project has a variable at the top of the file to specify which parts of boost need be compiled. This variable must be changed to include the parts needed for the C++ REST SDK: thread, chrono, filesystem, regex, system, and random. This can easily be done by applying our patch which sets the IPhone SDK version to 8.0 and Boost version to 1.57.  
+The script `boost.sh` provided by the boostoniphone project has a variable at the top of the file to specify which parts of boost need be compiled. This variable must be changed to include the parts needed for the C++ REST SDK: chrono, filesystem, random, regex, system, thread. This can easily be done by applying our patch.  
 
 ```
-git apply ../fix_boost_version.patch
+git apply ../fix_boost_building_script.patch
 chmod +x boost.sh
 ./boost.sh
 ```
