@@ -1,6 +1,6 @@
 # Contribution Guidelines
 
-If you would like to become involved in the development of this SDK there are many different ways in which you can contribute. We strongly value user feedback and will appreciate your questions, bug reports, and feature requests. In addition you can also contribute changes to the code, which include [bug fixes](#bugs) and improvements as well as new [features](#contribute).  
+If you would like to become involved in the development of this SDK there are many different ways in which you can contribute. We strongly value user feedback and will appreciate your questions, bug reports, and feature requests. In addition you can also contribute changes to the code, which include bug fixes and improvements as well as new features.
 
 ### Using the product and providing feedback
 
