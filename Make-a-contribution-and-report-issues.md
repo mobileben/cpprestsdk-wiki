@@ -40,7 +40,7 @@ _Note: Please keep in mind that not all requests will be approved. Requests are 
 
 ### Contribution guidelines
 
-Before you start working on bug fixes and features it is good idea to discuss those broadly with the community. You can use the [forums](http://social.msdn.microsoft.com/Forums/en-US/casablanca/threads). for this purpose. Before submitting your changes make sure you followed the guidelines below:
+Before you start working on bug fixes and features it is good idea to discuss those broadly with the community. You can use the [issue tracker](../issues) for this purpose. Before submitting your changes make sure you followed the guidelines below:
 
 *   You have properly documented any new functionality
 *   For any new functionality you have written complete unit tests
