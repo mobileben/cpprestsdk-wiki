@@ -9,7 +9,7 @@ Using the APIs, asking and answering questions, reporting bugs and making featur
 
 ### Report bugs and request features
 
-Issues and feature requests are submitted through the project's [Issues Tracker](http://casablanca.codeplex.com/WorkItem/Create) section on CodePlex. Please use the following guidelines when you submit issues and feature requests:
+Issues and feature requests are submitted through the project's [issue tracker](../issues) section on CodePlex. Please use the following guidelines when you submit issues and feature requests:
 
 *   Make sure the issue is not already reported by searching through the list of issues
 *   Provide a detailed description of the issue including the following information:
