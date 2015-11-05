@@ -150,6 +150,5 @@ Here is a matrix of the features in C++ REST SDK and the platforms we support. C
 ## Questions?
 
 *   Take a look at our [FAQ](FAQ)
-*   Post a question on the [forums](http://casablanca.codeplex.com/discussions)
-*   Report a [bug](https://casablanca.codeplex.com/WorkItem/Create)
-*   Contact us directly askcasablanca at Microsoft dot com
+*   Report a [bug](../issues)
+*   Directly contact us: <askcasablanca@microsoft.com>
