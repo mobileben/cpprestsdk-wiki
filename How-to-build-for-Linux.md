@@ -27,6 +27,7 @@ make
 ```
 
 You can build the Debug version by specifying -DCMAKE_BUILD_TYPE=Debug on the cmake line instead.  
+You can also build the static libraries instead of the shared libraries by adding -DBUILD_SHARED_LIBS=0 on the cmake line above.
 
 5\. After building you can run the tests by executing the ./run_tests.sh script inside the "Binaries" folder:  
 
