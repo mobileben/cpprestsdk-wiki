@@ -4,12 +4,12 @@ If you would like to become involved in the development of this SDK there are ma
 
 ### Using the product and providing feedback
 
-Using the APIs, asking and answering questions, reporting bugs and making feature requests are critical parts of the project community. User feedback is crucial for improving the quality of the products and shaping further development. In order to become familiar with the functionality you can download the pre-compiled binaries or sync the source code from CodePlex and compile locally. Once you become familiar with the functionality you can report bugs or request new features.  
+Using the APIs, asking and answering questions, reporting bugs and making feature requests are critical parts of the project community. User feedback is crucial for improving the quality of the products and shaping further development. In order to become familiar with the functionality you can download the pre-compiled binaries or sync the source code from github and compile locally. Once you become familiar with the functionality you can report bugs or request new features.  
 <a name="questions"></a>
 
 ### Report bugs and request features
 
-Issues and feature requests are submitted through the project's [issue tracker](../issues) section on CodePlex. Please use the following guidelines when you submit issues and feature requests:
+Issues and feature requests are submitted through the project's [issue tracker](../issues) section on github. Please use the following guidelines when you submit issues and feature requests:
 
 *   Make sure the issue is not already reported by searching through the list of issues
 *   Provide a detailed description of the issue including the following information:
@@ -32,7 +32,7 @@ In order to become a contributor to the project we need you to sign the [Contrib
 You make modifications of the code in your local Git repository. Once you are done with your implementation follow the steps below:
 
 *   Submit the changes to your own fork by using the following command <span class="codeInline">git submit</span>
-*   In CodePlex create new pull request to the development branch by clicking on the Pull Request button
+*   In github create new pull request to the development branch by clicking on the Pull Request button
 *   Write detailed message describing the changes in the pull request
 *   Submit the pull request for consideration by the team
 
