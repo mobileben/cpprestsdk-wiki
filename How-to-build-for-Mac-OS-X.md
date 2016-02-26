@@ -20,17 +20,17 @@ git clone https://github.com/Microsoft/cpprestsdk.git casablanca
 
 Going forward, you will want to pull from the _master_ branch, which will always contain the last known release.  
 
-5\. Build the SDK in Release mode  
+5\. Build the SDK in Debug mode  
 
 ```
 cd casablanca
-mkdir build.release
-cd build.release
-cmake ../Release -DCMAKE_BUILD_TYPE=Release
+mkdir build.debug
+cd build.debug
+cmake ../Release -DCMAKE_BUILD_TYPE=Debug
 make -j 4
 ```
 
-You can build the Debug version by replacing every instance of Release with Debug in the previous directions.  
+You can build the Debug version by replacing every instance of Debug with Release in the previous directions.  
 
 6\. After building you can run the tests by launching the <span class="codeInline">test_runner</span> executable:  
 
