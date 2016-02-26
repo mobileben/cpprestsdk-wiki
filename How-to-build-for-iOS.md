@@ -15,7 +15,7 @@ pushd casablanca/Build_iOS
 
 ## Building OpenSSL
 
-To build OpenSSL, use the script provided by the OpenSSL-for-iPhone project.  
+To build OpenSSL, use the script provided by the [OpenSSL-for-iPhone](https://github.com/x2on/OpenSSL-for-iPhone)   project.  
 
 ```
 git clone --depth=1 https://github.com/x2on/OpenSSL-for-iPhone.git
@@ -33,8 +33,6 @@ mv OpenSSL-for-iPhone/lib openssl
 ```
 
 This completes building OpenSSL.  
-
-project link: [https://github.com/x2on/OpenSSL-for-iPhone](https://github.com/x2on/OpenSSL-for-iPhone)  
 
 ## Building Boost
 
