@@ -6,7 +6,7 @@ The C++ REST SDK depends on Boost and OpenSSL when used on iOS. It is a non-triv
 
 This document will walk through the steps to build the C++ REST SDK and its dependencies into a form suitable for use with iOS applications.  
 
-For this walkthrough, we assume you are working within the <span class="codeInline">Build_iOS</span> directory of the project.  
+For this walkthrough, we assume you are working within the `Build_iOS` directory of the project.  
 
 ```
 git clone https://github.com/Microsoft/cpprestsdk.git casablanca
@@ -24,7 +24,7 @@ pushd OpenSSL-for-iPhone
 popd
 ```
 
-The output of this build script is a set of architecture-specific libraries. Copy the include files (as well as the LICENSE) from any of them to <span class="codeInline">Build_iOS/openssl/include</span>. Furthemore, merge the architecture-specific libraries into universal ones and place them in <span class="codeInline">Build_iOS/openssl/lib</span>.
+The output of this build script is a set of architecture-specific libraries. Copy the include files (as well as the LICENSE) from any of them to `Build_iOS/openssl/include`. Furthemore, merge the architecture-specific libraries into universal ones and place them in `Build_iOS/openssl/lib`.
 
 ```
 mkdir -p openssl/lib
