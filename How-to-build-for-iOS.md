@@ -24,13 +24,15 @@ pushd OpenSSL-for-iPhone
 popd
 ```
 
-After building the library, move the include files and libraries to <span class="codeInline">Build_iOS/openssl/include</span> and <span class="codeInline">Build_iOS/openssl/lib</span> respectively.  
+The output of this build script is a set of architecture-specific libraries. Copy the include files (as well as the LICENSE) from any of them to <span class="codeInline">Build_iOS/openssl/include</span>. Furthemore, merge the architecture-specific libraries into universal ones and place them in <span class="codeInline">Build_iOS/openssl/lib</span>.
 
 ```
-mkdir openssl
-mv OpenSSL-for-iPhone/include openssl
-mv OpenSSL-for-iPhone/lib openssl
-```
+mkdir -p openssl/lib
+cp -r OpenSSL-for-iPhone/bin/iPhoneOS8.2-armv7.sdk/include openssl
+cp OpenSSL-for-iPhone/include/LICENSE openssl
+lipo -create -output openssl/lib/libssl.a OpenSSL-for-iPhone/bin/iPhone*/lib/libssl.a
+lipo -create -output openssl/lib/libcrypto.a OpenSSL-for-iPhone/bin/iPhone*/lib/libcrypto.a
+``` 
 
 This completes building OpenSSL.  
 
