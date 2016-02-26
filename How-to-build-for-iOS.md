@@ -89,33 +89,33 @@ project link: [https://github.com/cristeab/ios-cmake](https://github.com/cristea
 
 ## Building the C++ REST SDK
 
-Now we are ready to build the C++ REST SDK for iOS. Invoke the ios-buildscripts subproject in the usual CMake fashion:  
+Now we are ready to build the C++ REST SDK for iOS. We will be building Debug mode. You can build the Release version by replacing every instance of Debug with Release in the directions. Invoke the ios-buildscripts subproject in the usual CMake fashion:  
 
 ```
-mkdir build.ios
-pushd build.ios
-cmake .. -DCMAKE_BUILD_TYPE=Release
+mkdir build.debug
+pushd build.debug
+cmake .. -DCMAKE_BUILD_TYPE=Debug
 make
 popd
 ```
 
-This will produce a universal static library called "libcpprest.a" inside the 'build.ios' directory for the i386 simulator, x86_64 simulator, armv7, armv7s, and arm64.  
+This will produce a universal static library called "libcpprest.a" inside the 'build.debug' directory for the i386 simulator, x86_64 simulator, armv7, armv7s, and arm64.  
 
 ## Running Tests
 
 If you want to run the tests in the iOS simulator you can simply execute 'make test'.  
 
 ```
-pushd build.ios
+pushd build.debug
 make test
 popd
 ```
-
+Note: This specifically looks for the directory that we named build.debug above. If you changed the name, you need to point to the correct directory. 
 This will go and run all the tests in the iOS simulator, but the output of the tests won't be displayed. If you want to run the tests directly and see the full output you can manually execute the tests directly with xcodebuild.  
 
 ```
-pushd Release/tests/common/TestRunner/ios
-xcodebuild test -project ios_runner.xcodeproj -configuration=Release -scheme ios_runner -destination "platform=iOS Simulator,name=iPhone 6"
+pushd Debug/tests/common/TestRunner/ios
+xcodebuild test -project ios_runner.xcodeproj -configuration=Debug -scheme ios_runner -destination "platform=iOS Simulator,name=iPhone 6"
 ```
 
 Now you will see the output of each of the tests cases as they run.  
@@ -124,7 +124,7 @@ Now you will see the output of each of the tests cases as they run.
 
 You will need to link against the following from your project:  
 
-*   build.ios/libcpprest.a
+*   build.debug/libcpprest.a
 *   boost.framework
 *   openssl/lib/libcrypto.a
 *   openssl/lib/libssl.a
@@ -133,7 +133,7 @@ You will need to link against the following from your project:
 
 You will also need to add the following paths as additional include directories:  
 
-*   ../Release/include
+*   ../Debug/include
 *   boost.framework/Headers
 *   openssl/include
 
