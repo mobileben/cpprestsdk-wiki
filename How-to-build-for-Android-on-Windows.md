@@ -9,6 +9,8 @@ After adding the package, you will need to enable exceptions, rtti, c++11, and t
 *   C++ -> Language -> Enable Run-Time Type Information = Yes
 *   C++ -> Language -> C++ Language Standard = C++11
 
+Make sure you set this for all Platform/Configurations!
+
 Finally, you will need to add some small initialization code detailed under [StaticLinking](#StaticLinking). In addition to the instructions mentioned here, you can get a walkthrough with a simple sample application from this [blog post](http://blogs.msdn.com/b/vcblog/archive/2015/01/06/targeting-android-with-the-c-rest-sdk.aspx).  
 
 ## Non-NuGet
