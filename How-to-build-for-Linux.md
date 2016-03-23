@@ -36,4 +36,6 @@ cd Binaries
 ./test_runner *_test.so
 ```
 
+6\. To install on your system run: sudo make install
+
 _For versions prior to 2.0, please visit [Setup and Build on Linux (1.4)](https://casablanca.codeplex.com/wikipage?title=Setup%20and%20Build%20on%20Linux%20%281.4%29&referringTitle=Setup%20and%20Build%20on%20Linux)_
