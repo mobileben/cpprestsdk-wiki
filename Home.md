@@ -37,7 +37,7 @@ Here is a matrix of the features in C++ REST SDK and the platforms we support. C
 <th style="text-align:center"><strong>Android&nbsp;</strong></th>
 </tr>
 <tr>
-<td style="text-align:center"><a href="/wikipage?title=Programming%20with%20Tasks&amp;referringTitle=Documentation">Programming with Tasks</a></td>
+<td style="text-align:center">[[Programming with Tasks|Programming with Tasks]]</td>
 <td style="text-align:center"><img src="http://i3.codeplex.com/Download?ProjectName=json&amp;DownloadId=343964" alt="" height="16" width="16"></td>
 <td style="text-align:center"><img src="http://i3.codeplex.com/Download?ProjectName=json&amp;DownloadId=343964" alt="" height="16" width="16"></td>
 <td style="text-align:center"><img src="http://i3.codeplex.com/Download?ProjectName=json&amp;DownloadId=343964" alt="" height="16" width="16"></td>
@@ -50,7 +50,7 @@ Here is a matrix of the features in C++ REST SDK and the platforms we support. C
 <td style="text-align:center"><img src="http://i3.codeplex.com/Download?ProjectName=json&amp;DownloadId=343964" alt="" height="16" width="16"></td>
 </tr>
 <tr>
-<td style="text-align:center"><a href="/wikipage?title=JSON&amp;referringTitle=Documentation">JSON</a></td>
+<td style="text-align:center">[[JSON|JSON]]</td>
 <td style="text-align:center"><img src="http://i3.codeplex.com/Download?ProjectName=json&amp;DownloadId=343964" alt="" height="16" width="16"></td>
 <td style="text-align:center"><img src="http://i3.codeplex.com/Download?ProjectName=json&amp;DownloadId=343964" alt="" height="16" width="16"></td>
 <td style="text-align:center"><img src="http://i3.codeplex.com/Download?ProjectName=json&amp;DownloadId=343964" alt="" height="16" width="16"></td>
@@ -63,7 +63,7 @@ Here is a matrix of the features in C++ REST SDK and the platforms we support. C
 <td style="text-align:center"><img src="http://i3.codeplex.com/Download?ProjectName=json&amp;DownloadId=343964" alt="" height="16" width="16"></td>
 </tr>
 <tr>
-<td style="text-align:center"><a href="/wikipage?title=Asynchronous%20Streams&amp;referringTitle=Documentation">Asynchronous Streams</a></td>
+<td style="text-align:center">[[Asynchronous Streams|Asynchronous Streams]]</td>
 <td style="text-align:center"><img src="http://i3.codeplex.com/Download?ProjectName=json&amp;DownloadId=343964" alt="" height="16" width="16"></td>
 <td style="text-align:center"><img src="http://i3.codeplex.com/Download?ProjectName=json&amp;DownloadId=343964" alt="" height="16" width="16"></td>
 <td style="text-align:center"><img src="http://i3.codeplex.com/Download?ProjectName=json&amp;DownloadId=343964" alt="" height="16" width="16"></td>
@@ -76,7 +76,7 @@ Here is a matrix of the features in C++ REST SDK and the platforms we support. C
 <td style="text-align:center"><img src="http://i3.codeplex.com/Download?ProjectName=json&amp;DownloadId=343964" alt="" height="16" width="16"></td>
 </tr>
 <tr>
-<td style="text-align:center"><a href="/wikipage?title=URI&amp;referringTitle=Documentation">URIs</a></td>
+<td style="text-align:center">[[URIs|URI]]</td>
 <td style="text-align:center"><img src="http://i3.codeplex.com/Download?ProjectName=json&amp;DownloadId=343964" alt="" height="16" width="16"></td>
 <td style="text-align:center"><img src="http://i3.codeplex.com/Download?ProjectName=json&amp;DownloadId=343964" alt="" height="16" width="16"></td>
 <td style="text-align:center"><img src="http://i3.codeplex.com/Download?ProjectName=json&amp;DownloadId=343964" alt="" height="16" width="16"></td>
@@ -89,7 +89,7 @@ Here is a matrix of the features in C++ REST SDK and the platforms we support. C
 <td style="text-align:center"><img src="http://i3.codeplex.com/Download?ProjectName=json&amp;DownloadId=343964" alt="" height="16" width="16"></td>
 </tr>
 <tr>
-<td style="text-align:center"><a href="/wikipage?title=HTTP%20Client&amp;referringTitle=Documentation">HTTP Client</a></td>
+<td style="text-align:center">[[HTTP Client|HTTP Client]]</td>
 <td style="text-align:center"><img src="http://i3.codeplex.com/Download?ProjectName=json&amp;DownloadId=343964" alt="" height="16" width="16"></td>
 <td style="text-align:center"><img src="http://i3.codeplex.com/Download?ProjectName=json&amp;DownloadId=343964" alt="" height="16" width="16"></td>
 <td style="text-align:center"><img src="http://i3.codeplex.com/Download?ProjectName=json&amp;DownloadId=343964" alt="" height="16" width="16"></td>
@@ -102,7 +102,7 @@ Here is a matrix of the features in C++ REST SDK and the platforms we support. C
 <td style="text-align:center"><img src="http://i3.codeplex.com/Download?ProjectName=json&amp;DownloadId=343964" alt="" height="16" width="16"></td>
 </tr>
 <tr>
-<td style="text-align:center"><a href="/wikipage?title=HTTP%20Listener&amp;referringTitle=Documentation">HTTP Listener</a></td>
+<td style="text-align:center">[[HTTP Listener|HTTP Listener]]</td>
 <td style="text-align:center"><img src="http://i3.codeplex.com/Download?ProjectName=json&amp;DownloadId=343964" alt="" height="16" width="16">(Beta)</td>
 <td style="text-align:center">&nbsp;<img src="http://i3.codeplex.com/Download?ProjectName=json&amp;DownloadId=343965" alt="" height="16" width="16"></td>
 <td style="text-align:center">&nbsp;<img src="http://i3.codeplex.com/Download?ProjectName=json&amp;DownloadId=343965" alt="" height="16" width="16"></td>
@@ -117,7 +117,7 @@ Here is a matrix of the features in C++ REST SDK and the platforms we support. C
 <td style="text-align:center"><img src="http://i3.codeplex.com/Download?ProjectName=json&amp;DownloadId=343964" alt="" height="16" width="16">(Beta)</td>
 </tr>
 <tr>
-<td style="text-align:center"><a href="/wikipage?title=Web%20Socket&amp;referringTitle=Documentation">WebSocket Client</a></td>
+<td style="text-align:center">[[WebSocket Client|Web Socket]]</td>
 <td style="text-align:center">&nbsp;<img src="http://i3.codeplex.com/Download?ProjectName=json&amp;DownloadId=343964" alt="" height="16" width="16"></td>
 <td style="text-align:center"><img src="http://i3.codeplex.com/Download?ProjectName=json&amp;DownloadId=343964" alt="" height="16" width="16"></td>
 <td style="text-align:center">&nbsp;<img src="http://i3.codeplex.com/Download?ProjectName=json&amp;DownloadId=343965" alt="" height="16" width="16"></td>
@@ -130,7 +130,7 @@ Here is a matrix of the features in C++ REST SDK and the platforms we support. C
 <td style="text-align:center"><img src="http://i3.codeplex.com/Download?ProjectName=json&amp;DownloadId=343964" alt="" height="16" width="16"></td>
 </tr>
 <tr>
-<td style="text-align:center"><a href="https://casablanca.codeplex.com/wikipage?title=OAuth%20Client">OAuth&nbsp;Client</a></td>
+<td style="text-align:center">[[OAuth Client|OAuth Client]]</td>
 <td style="text-align:center"><img src="http://i3.codeplex.com/Download?ProjectName=json&amp;DownloadId=343964" alt="" height="16" width="16">(Beta)</td>
 <td style="text-align:center"><img src="http://i3.codeplex.com/Download?ProjectName=json&amp;DownloadId=343964" alt="" height="16" width="16">(Beta)</td>
 <td style="text-align:center"><img src="http://i3.codeplex.com/Download?ProjectName=json&amp;DownloadId=343964" alt="" height="16" width="16">(Beta, OAuth2 only)</td>
