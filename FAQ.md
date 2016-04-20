@@ -42,7 +42,7 @@ Our latest releases [no longer support Visual Studio 2010](https://casablanca.co
 Two things influenced this decision:
 
 *   For many developers of REST services, JSON is the preferred format for exchanging text-serialized data. It’s simpler than XML and it easier to read. Given this preference, we thought it important to prioritize JSON over XML.
-*   There are already several good native XML libraries for both Windows and Linux. For example, on WIndows, we’re using XmlLite internally in the C++ Rest SDK libraries in a couple of places. That library has a lot of Win32 “jargon” to it, and we may eventually wrap it in something that is thin but looks like standard C++, but XmlLite is a very functional library and has excellent performance. There are also open-source solutions available.
+*   There are already several good native XML libraries for both Windows and Linux. For example, on Windows, we’re using XmlLite internally in the C++ Rest SDK libraries in a couple of places. That library has a lot of Win32 “jargon” to it, and we may eventually wrap it in something that is thin but looks like standard C++, but XmlLite is a very functional library and has excellent performance. There are also open-source solutions available.
 
 ### C++ Rest SDK supports accessing REST services. Why not SOAP?
 
