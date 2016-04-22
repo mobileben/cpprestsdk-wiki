@@ -5,7 +5,7 @@
 2\. Install all the needed build tools and libraries  
 
 ```bash
-sudo apt-get install g++-4.8 g++ git make libboost1.54-all-dev libssl-dev cmake
+sudo apt-get install g++ git make libboost1.54-all-dev libssl-dev cmake
 ```
 
 3\. Clone the project using Git (it will be stored in the folder "casablanca"):  
@@ -22,7 +22,7 @@ Going forward, you will want to pull from the _master_ branch, which will always
 cd casablanca/Release
 mkdir build.debug
 cd build.debug
-CXX=g++-4.8 cmake .. -DCMAKE_BUILD_TYPE=Debug
+cmake .. -DCMAKE_BUILD_TYPE=Debug
 make
 ```
 
