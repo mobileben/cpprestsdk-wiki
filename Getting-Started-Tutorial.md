@@ -27,7 +27,7 @@ Here is a list of other important header files in Casablanca, but these we won't
 #include <cpprest/http_listener.h>              // HTTP server</span>
 #include <cpprest/json.h>                       // JSON library</span>
 #include <cpprest/uri.h>                        // URI library</span>
-#include <cpprest/ws_client>                    // WebSocket client</span>
+#include <cpprest/ws_client.h>                    // WebSocket client</span>
 #include <cpprest/containerstream.h>            // Async streams backed by STL containers</span>
 #include <cpprest/interopstream.h>              // Bridges for integrating Async streams with STL and WinRT streams</span>
 #include <cpprest/rawptrstream.h>               // Async streams backed by raw pointer to memory</span>
