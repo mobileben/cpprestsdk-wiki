@@ -32,12 +32,12 @@ make -j 4
 
 You can build the Release version by replacing every instance of Debug with Release in the previous directions.  
 
+***
 **XVELA NOTES:**
-```
 This fork fixes five compile errors in the original source code when you perform the `make -j 4` step.
 These all are due to calls to `std::move`. Commenting out the move call seems to solve the problem.
 You may also need to run `brew link openssl --force` but I do not recall what prompted me to do that.
-```
+***
 
 6\. After building you can run the tests by launching the <span class="codeInline">test_runner</span> executable:  
 
