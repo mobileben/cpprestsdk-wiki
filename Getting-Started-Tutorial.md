@@ -83,7 +83,7 @@ Next create an http_client and make the actual HTTP request. Update the lambda t
 
         // Build request URI and start the request.
         uri_builder builder(U("/search"));
-        builder.append_query(U("q"), U("Casablanca CodePlex"));
+        builder.append_query(U("q"), U("cpprestsdk github"));
         return client.request(methods::GET, builder.to_string());
     })
 ```
@@ -153,11 +153,11 @@ Since a lot of the work done in the previous tasks involves file and network I/O
 
 Now the program is now complete, so compile and run it. If it ran correctly you should see output like the following:  
 
-![RunOutput.PNG](http://download-codeplex.sec.s-msft.com/Download?ProjectName=casablanca&DownloadId=813477 "RunOutput.PNG")  
+![GettingStartedTutorialConsoleOutput.png](resources/GettingStartedTutorialConsoleOutput.png)  
 
 If you then open up results.html you should see something like this:  
 
-![results.PNG](http://download-codeplex.sec.s-msft.com/Download?ProjectName=casablanca&DownloadId=813479 "results.PNG")  
+![GettingStartedTutorialResults.png](resources/GettingStartedTutorialResults.png)  
 
 Congratulations you just ran your first program with Casablanca! A good next step is to take a look at our [Documentation](Home). Also feel free to ask any questions in our [discussion forum](https://casablanca.codeplex.com/discussions). Below is all the source code for the example created during this tutorial. A working sample located under Release\samples\BingRequest in our source code is very similar to this as well.  
 
@@ -185,7 +185,7 @@ int main(int argc, char* argv[])
 
         // Build request URI and start the request.
         uri_builder builder(U("/search"));
-        builder.append_query(U("q"), U("Casablanca CodePlex"));
+        builder.append_query(U("q"), U("cpprestsdk github"));
         return client.request(methods::GET, builder.to_string());
     })
 
