@@ -159,7 +159,7 @@ If you then open up results.html you should see something like this:
 
 ![GettingStartedTutorialResults.png](resources/GettingStartedTutorialResults.png)  
 
-Congratulations you just ran your first program with Casablanca! A good next step is to take a look at our [Documentation](Home). Also feel free to ask any questions in our [discussion forum](https://casablanca.codeplex.com/discussions). Below is all the source code for the example created during this tutorial. A working sample located under Release\samples\BingRequest in our source code is very similar to this as well.  
+Congratulations you just ran your first program with Casablanca! A good next step is to take a look at our [Documentation](Home). Below is all the source code for the example created during this tutorial. A working sample located under Release\samples\BingRequest in our source code is very similar to this as well.  
 
 ```c++
 #include <cpprest/http_client.h>
