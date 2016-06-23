@@ -4,11 +4,11 @@ This tutorial walks through how to setup up a simple Windows desktop application
 
 ### Getting the C++ Rest SDK NuGet Package
 
-The C++ Rest SDK NuGet package allows you to easily add Casablanca to an application without having to manually deal with setting up includes, libs, dlls, and deployment with Windows store applications. Make sure you have the Visual Studio NuGet Package Manager installed, then find the C++ Rest SDK NuGet package by right clicking on your project and selecting "Manage Nuget Packages...". From the dialog search for "Casablanca":  
+The C++ Rest SDK NuGet package allows you to easily add Casablanca to an application without having to manually deal with setting up includes, libs, dlls, and deployment with Windows store applications. Make sure you have the Visual Studio [NuGet Package Manager installed](How-to-use-the-C---Rest-SDK-NuGet-package), then find the C++ Rest SDK NuGet package by right clicking on your project and selecting "Manage NuGet Packages...". From the dialog search for "Casablanca":  
 
-![SearchingCasablancaInNuGet.png](resources/SearchingCasablancaInNuGet.png)  
+![SearchingCasablancaInNuGet.png](resources/SearchingCasablancaInNuGet.png)
 
-More detailed instruction for setting up our NuGet package can be located [here](How-to-use-the-C---Rest-SDK-NuGet-package). If you are developing for Linux, Mac, or iOS take a look at our instructions under [documentation](Home) on how to build Casablanca.
+More detailed instructions for setting up our NuGet package can be located [here](How-to-use-the-C---Rest-SDK-NuGet-package). If you are developing for Linux, Mac, or iOS take a look at our instructions under [documentation](Home) on how to build Casablanca.
 
 ### Setting up Includes and Namespaces
 
@@ -18,8 +18,6 @@ Now that Casablanca is downloaded and added to the project the next step is to i
 #include <cpprest/http_client.h>
 #include <cpprest/filestream.h>
 ```
-
-</div>
 
 Here is a list of other important header files in Casablanca, but these we won't be using them in this example:  
 
@@ -33,7 +31,7 @@ Here is a list of other important header files in Casablanca, but these we won't
 #include <cpprest/rawptrstream.h>               // Async streams backed by raw pointer to memory
 #include <cpprest/producerconsumerstream.h>     // Async streams for producer consumer scenarios
 ```
-</div>
+
 
 To save explicitly typing common namespaces over and over add the following using statements:  
 
@@ -45,8 +43,6 @@ using namespace web::http::client;          // HTTP client features
 using namespace concurrency::streams;       // Asynchronous streams
 ```
 
-</div>
-
 Other important namespaces not used in this tutorial in Casablanca include:  
 
 ```c++
@@ -55,7 +51,6 @@ using namespace web::experimental::web_sockets::client;     // WebSockets client
 using namespace web::json;                                  // JSON library
 ```
 
-</div>
 
 ### Making an Http Request and Saving the Results
 
@@ -71,7 +66,7 @@ In this tutorial we are going to asynchronously make a request to [http://www.bi
     })
 ```
 
-</div>
+
 
 Here we are opening a raw byte stream to a file called results.html. Since this is a potentially blocking I/O operation it is being done asynchronously - you will see this pattern used in Casablanca consistently. Read more about task-based asynchronous programming [here](Programming-with-Tasks)  
 
@@ -93,7 +88,7 @@ Next create an http_client and make the actual HTTP request. Update the lambda t
     })
 ```
 
-</div>
+
 
 The code here is constructing an instance of Casablanca's http_client for bing.com and then formulating the request query before sending the request. If you need to specify any special options like timeouts, proxies, or credentials this can be done at construction using the http_client_config class. There also exist a variety of http_client::request overloads for sending a request body. Now the lambda function will return a task of the http_response.  
 
@@ -107,7 +102,7 @@ The next step is to hook up another task continuation to handle the response fro
     })
 ```
 
-</div>
+
 
 The task returned from http_client::request is signaled once the HTTP headers from the response arrive. This means the response body may still be in flight, to be received later. The returned task produces an http_response object. There are several ways to access the response body. Fundamentally the response body is just a stream of bytes and can be accessed as a stream, but we also provide convenience APIs for extracting the body as a string or a json value: http_response::extract_string() and http_response::extract_json(). You also can be notified that the response body has arrived entirely with the http_response::content_ready() API.  
 
@@ -124,7 +119,7 @@ To write the response body into a file we access the underlying response stream 
     })
 ```
 
-</div>
+
 
 The http_response::body() method returns an asynchronous stream that we write into the file. This is all done asynchronously returning a task that will signal completion. Once the writing is done we should make sure to close the file stream. To do this hook up a new continuation:  
 
@@ -136,7 +131,7 @@ The http_response::body() method returns an asynchronous stream that we write in
     })
 ```
 
-</div>
+
 
 Closing the file stream, just like all the other I/O operations, is done asynchronously and returns a task. Since all this work is done in the main function of our program we need to wait for all the pending asynchronous work to complete. Do this by calling the wait function on the last task. Normally in your program you probably don't want to block waiting because this could make your application unresponsive and block threads, however in this case we need to make sure everything is done running before the process exits.  
 
@@ -154,7 +149,7 @@ Since a lot of the work done in the previous tasks involves file and network I/O
     }
 ```
 
-</div>
+
 
 Now the program is now complete, so compile and run it. If it ran correctly you should see output like the following:  
 
@@ -222,5 +217,3 @@ int main(int argc, char* argv[])
     return 0;
 }
 ```
-
-</div>
