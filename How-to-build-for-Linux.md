@@ -43,7 +43,9 @@ cd Binaries
 
 6\. To install on your system run: sudo make install
 
-7. You can check your first program by compiling it using necessary command line arguments 
-   g++ -std=c++11 my_file.cpp -o my_file -lboost_system -lcrypto -lssl -lcpprest
-   ./my_file
+7\. You can check your first program by compiling it using necessary command line arguments 
+```bash
+g++ -std=c++11 my_file.cpp -o my_file -lboost_system -lcrypto -lssl -lcpprest
+./my_file
+```
 _For versions prior to 2.0, please visit [Setup and Build on Linux (1.4)](https://casablanca.codeplex.com/wikipage?title=Setup%20and%20Build%20on%20Linux%20%281.4%29&referringTitle=Setup%20and%20Build%20on%20Linux)_
