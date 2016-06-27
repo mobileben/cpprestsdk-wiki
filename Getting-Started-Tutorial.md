@@ -151,7 +151,7 @@ Since a lot of the work done in the previous tasks involves file and network I/O
 
 
 
-Now the program is now complete, so compile and run it. If it ran correctly you should see output like the following:  
+Now the program is complete, so compile and run it. If it ran correctly you should see output like the following:  
 
 ![GettingStartedTutorialConsoleOutput.png](resources/GettingStartedTutorialConsoleOutput.png)  
 
