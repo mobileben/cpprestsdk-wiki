@@ -10,7 +10,7 @@ The C++ Rest SDK NuGet package allows you to easily add Casablanca to an applica
 
 Select the desktop package from the list, as shown in the screenshot, and click "Install". 
 
-If the selections on your screen match the screenshot and there is still "No packages found" when searching for cpprestsdk, then you might have encountered an issue with NuGet. Please check [here](http://docs.nuget.org/release-notes/known-issues#error-installing-packages-with-nuget-3.4,-3.4.1) for resolving the issue. 
+If the selections on your screen match the screenshot and there are still "No packages found" when searching for cpprestsdk, then you might have encountered an issue with NuGet. Please check [here](http://docs.nuget.org/release-notes/known-issues#error-installing-packages-with-nuget-3.4,-3.4.1) for resolving the issue. 
 More detailed instructions for setting up our NuGet package can be located [here](How-to-use-the-C---Rest-SDK-NuGet-package). If you are developing for Linux, Mac, or iOS take a look at our instructions under [documentation](Home) on how to build Casablanca.
 
 ### Setting up Includes and Namespaces
