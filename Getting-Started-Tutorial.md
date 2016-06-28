@@ -4,7 +4,7 @@ This tutorial walks through how to setup up a simple Windows desktop application
 
 ### Getting the C++ Rest SDK NuGet Package
 
-The C++ Rest SDK NuGet package allows you to easily add Casablanca to an application without having to manually deal with setting up includes, libs, dlls, and deployment with Windows store applications. Make sure you have the Visual Studio [NuGet Package Manager installed](How-to-use-the-C---Rest-SDK-NuGet-package), then find the C++ Rest SDK NuGet package by right clicking on your project and selecting "Manage NuGet Packages...". From the dialog search for "Casablanca":  
+The C++ Rest SDK NuGet package allows you to easily add Casablanca to an application without having to manually deal with setting up includes, libs, dlls, and deployment with Windows store applications. Make sure you have the Visual Studio [NuGet Package Manager installed](How-to-use-the-C---Rest-SDK-NuGet-package), then find the C++ Rest SDK NuGet package by right clicking on your project and selecting "Manage NuGet Packages...". From the dialog search for "cpprestsdk":  
 
 ![SearchingCasablancaInNuGet.png](resources/SearchingCasablancaInNuGet.png)
 
