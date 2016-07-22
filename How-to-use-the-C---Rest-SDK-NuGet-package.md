@@ -10,7 +10,7 @@ From the [NuGet website:](http://docs.nuget.org/docs/start-here/overview)
 *   Open Visual Studio and create a new project or open an existing project.
 *   Go to **Tools > Extensions and Updates**, and make sure that the NuGet Package Manager installed and it is version 2.5 or later. (If not, you can install and update the NuGet manager from this window) ![NuGetPackageManagerInExtensionsAndUpdates.png](resources/NuGetPackageManagerInExtensionsAndUpdates.png)
 *   Right click on the project and select **Manage NuGet Packages**. From this window you can add, remove and update packages.
-*   Search for the C++ REST SDK/Casablanca and click install
+*   Search for "cpprestsdk" (the C++ REST SDK/Casablanca) and click install
 
 ![SearchingCasablancaInNuGet.png](resources/SearchingCasablancaInNuGet.png)
 
