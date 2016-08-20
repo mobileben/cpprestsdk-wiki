@@ -22,7 +22,7 @@ Now that Casablanca is downloaded and added to the project the next step is to i
 #include <cpprest/filestream.h>
 ```
 
-Here is a list of other important header files in Casablanca, but these we won't be using them in this example:  
+Here is a list of other important header files in Casablanca, but we won't be using them in this example:  
 
 ```c++
 #include <cpprest/http_listener.h>              // HTTP server
