@@ -28,7 +28,7 @@ The output of this build script is a set of architecture-specific libraries. Cop
 
 ```
 mkdir -p openssl/lib
-cp -r OpenSSL-for-iPhone/bin/iPhoneOS8.2-armv7.sdk/include openssl
+cp -r OpenSSL-for-iPhone/bin/iPhoneOS9.2-armv7.sdk/include openssl
 cp OpenSSL-for-iPhone/include/LICENSE openssl
 lipo -create -output openssl/lib/libssl.a OpenSSL-for-iPhone/bin/iPhone*/lib/libssl.a
 lipo -create -output openssl/lib/libcrypto.a OpenSSL-for-iPhone/bin/iPhone*/lib/libcrypto.a
