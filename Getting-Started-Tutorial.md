@@ -66,7 +66,7 @@ In this tutorial we are going to asynchronously make a request to [http://www.bi
     pplx::task<void> requestTask = fstream::open_ostream(U("results.html")).then([=](ostream outFile)
     {
         *fileStream = outFile;
-    });
+    })
 ```
 
 
