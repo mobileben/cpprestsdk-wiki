@@ -27,17 +27,19 @@ The easiest way to build is by using the Visual Studio solution files. They cont
 
 The Visual Studio solution files are located in the top of the repository. Different files exist for Visual Studio 2013 and 2015\. For example the solution file called **cpprestsdk120.sln** contains the projects development with Visual Studio 2013\. To build simply open the solution file you need and away you go! The source code is structured into different shared projects based on platform. For example the 'common' project contains all the public headers and the source code common to all platforms. The 'win32' project contains source specific to Windows Desktop, 'winrt' specific to the Windows Runtime, etc...  
 
+Note: Visual Studio 2013 Express will be unable to load the project files, because that particular SKU does not support Shared Items projects. You can either install Visual Studio 2015 Community and build the 2013 binaries through the 2015 IDE or use the command line instructions below.
+
 Note: We use the Boost and OpenSSL libraries on Windows; when you build the solution file the first time, it will automatically download all the needed libraries. This can take a while, depending on your connection speed. Furthermore, it may appear that Visual Studio hangs while downloading. This is expected and the download should not be affected.  
 
 ### Command line
 
-The more complex and complete way to build can be performed from the command line. However, you will need to provide all of the dependencies that we require. The easiest way to provide these libraries is to build once with Visual Studio following the above instructions (this will download appropriate NuGet packages). However, you can also provide them via the environment variables LIB, LIBPATH, and INCLUDE. If you are using Powershell you can also use the [NuGet command line](http://docs.nuget.org/docs/reference/command-line-reference) to download all the package dependencies.  
+The more complex and complete way to build can be performed from the command line. However, you will need to provide all of the dependencies that we require. The easiest way to provide these libraries is to build once with Visual Studio following the above instructions (this will download appropriate NuGet packages). However, you can also provide them via the environment variables LIB, LIBPATH, and INCLUDE. If you are using Powershell you can also use the [NuGet command line](https://dist.nuget.org/win-x86-commandline/latest/nuget.exe) to download all the package dependencies.
 
 ```cmd
 .\NuGet.exe restore .\cpprestsdk120.sln
 ```
 
-After obtaining all the dependencies, navigate to the Release directory in the repository and type:  
+After obtaining all the dependencies, navigate to the Release directory in the repository while in a developer prompt and type:  
 
 ```cmd
 msbuild dirs.proj /p:Configuration=Debug /p:Platform=x64 /p:UseEnv=true
