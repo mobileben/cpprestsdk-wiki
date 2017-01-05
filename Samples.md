@@ -20,3 +20,8 @@ A Windows store application illustrating how to connect and authenticate with Wi
 
 **Blackjack**  
 A version of the Blackjack card game. Using the http_listener used to host tables and act as the dealer and http_client to join tables and play hands as individual players.
+
+
+****Restweb****     
+A sample project of cpprestsdk server side . it handles GET ,PUT, DELETE and POST method .this sample is written to help beginner to get started with cpprestsdk . it uses http_listener to handle all 4 methods .
+[Restweb server side using http_listener](https://github.com/Pintulalm/Restweb) 
