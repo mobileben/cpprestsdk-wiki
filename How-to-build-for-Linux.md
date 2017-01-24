@@ -1,5 +1,7 @@
 # How to setup, build, and run tests on Linux
 
+0\. We're in apt-get! Use `sudo apt-get install libcpprest-dev` to get all our development files. If your distribution has an outdated version, continue on to build from source.
+
 1\. Install [Ubuntu](http://www.ubuntu.com/download) 14.04 or later.  
 
 2\. Install all the needed build tools and libraries  
