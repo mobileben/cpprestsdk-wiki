@@ -66,7 +66,7 @@ In this tutorial we are going to asynchronously make a request to [http://www.bi
     pplx::task<void> requestTask = fstream::open_ostream(U("results.html")).then([=](ostream outFile)
     {
         *fileStream = outFile;
-    })
+    });
 ```
 
 
@@ -88,7 +88,7 @@ Next create an http_client and make the actual HTTP request. Update the lambda t
         uri_builder builder(U("/search"));
         builder.append_query(U("q"), U("cpprestsdk github"));
         return client.request(methods::GET, builder.to_string());
-    })
+    });
 ```
 
 
@@ -102,7 +102,7 @@ The next step is to hook up another task continuation to handle the response fro
     .then([=](http_response response)
     {
         printf("Received response status code:%u\n", response.status_code());
-    })
+    });
 ```
 
 
@@ -119,7 +119,7 @@ To write the response body into a file we access the underlying response stream 
 
         // Write response body into the file.
         return response.body().read_to_end(fileStream->streambuf());
-    })
+    });
 ```
 
 
@@ -131,7 +131,7 @@ The http_response::body() method returns an asynchronous stream that we write in
     .then([=](size_t)
     {
         return fileStream->close();
-    })
+    });
 ```
 
 
@@ -190,7 +190,7 @@ int main(int argc, char* argv[])
         uri_builder builder(U("/search"));
         builder.append_query(U("q"), U("cpprestsdk github"));
         return client.request(methods::GET, builder.to_string());
-    })
+    });
 
     // Handle response headers arriving.
     .then([=](http_response response)
@@ -199,7 +199,7 @@ int main(int argc, char* argv[])
 
         // Write response body into the file.
         return response.body().read_to_end(fileStream->streambuf());
-    })
+    });
 
     // Close the file stream.
     .then([=](size_t)
