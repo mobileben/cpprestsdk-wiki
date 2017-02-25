@@ -2,7 +2,7 @@
 
 This tutorial walks through how to setup up a simple Windows desktop application utilizing Casablanca. In particular taking a look at how to use our http_client to connect to a server and download some data. All the code and features described here work on any of our supported platforms.
 
-## Getting the C++ REST SDK
+### Getting the C++ REST SDK
 
 With [vcpkg](https://github.com/Microsoft/vcpkg) on Windows
 ```
@@ -16,17 +16,17 @@ With [brew](https://github.com/Homebrew/homebrew-core/blob/master/Formula/cppres
 ```
 brew install cpprestsdk
 ```
+With [NuGet](https://www.nuget.org/packages/cpprestsdk.android/) on Windows for Android
+```
+Install-Package cpprestsdk.android
+```
+With [NuGet](https://www.nuget.org/packages/cpprestsdk/) on Windows (not recommended)
+```
+Install-Package cpprestsdk
+```
+More detailed instructions for setting up our NuGet packages can be located [here](How-to-use-the-C---Rest-SDK-NuGet-package).
 
-### Getting the C++ Rest SDK NuGet Package
-
-The C++ Rest SDK NuGet package allows you to easily add Casablanca to an application without having to manually deal with setting up includes, libs, dlls, and deployment with Windows store applications. Make sure you have the Visual Studio [NuGet Package Manager installed](How-to-use-the-C---Rest-SDK-NuGet-package), then find the C++ Rest SDK NuGet package by right clicking on your project and selecting "Manage NuGet Packages...". From the dialog search for "cpprestsdk":  
-
-![SearchingCasablancaInNuGet.png](resources/SearchingCasablancaInNuGet.png)
-
-Select the desktop package from the list, as shown in the screenshot, and click "Install". 
-
-If the selections on your screen match the screenshot and there are still "No packages found" when searching for cpprestsdk, then you might have encountered an issue with NuGet. Please check [here](http://docs.nuget.org/release-notes/known-issues#error-installing-packages-with-nuget-3.4,-3.4.1) for resolving the issue. 
-More detailed instructions for setting up our NuGet package can be located [here](How-to-use-the-C---Rest-SDK-NuGet-package). If you are developing for Linux, Mac, or iOS take a look at our instructions under [documentation](Home) on how to build Casablanca.
+If you are developing on a platform not listed, or would prefer building from source, take a look at our instructions under [documentation](Home) on how to build Casablanca.
 
 ### Setting up Includes and Namespaces
 
