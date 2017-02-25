@@ -1,6 +1,21 @@
 # Http Client Tutorial
 
-This tutorial walks through how to setup up a simple Windows desktop application utilizing Casablanca. In particular taking a look at how to use our http_client to connect to a server and download some data. Aside from the initial setup referencing the NuGet package and Visual Studio specific photos, everything is NOT Windows specific. All the code and features described here work on any of our supported platforms.  
+This tutorial walks through how to setup up a simple Windows desktop application utilizing Casablanca. In particular taking a look at how to use our http_client to connect to a server and download some data. All the code and features described here work on any of our supported platforms.
+
+## Getting the C++ REST SDK
+
+With [vcpkg](https://github.com/Microsoft/vcpkg) on Windows
+```
+vcpkg install cpprestsdk cpprestsdk:x64-windows
+```
+With [apt-get](https://launchpad.net/ubuntu/+source/casablanca/2.8.0-2build2) on Debian/Ubuntu
+```
+apt-get install libcpprest-dev
+```
+With [brew](https://github.com/Homebrew/homebrew-core/blob/master/Formula/cpprestsdk.rb) on OSX
+```
+brew install cpprestsdk
+```
 
 ### Getting the C++ Rest SDK NuGet Package
 
