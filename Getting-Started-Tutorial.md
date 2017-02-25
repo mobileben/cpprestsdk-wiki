@@ -6,27 +6,27 @@ This tutorial walks through how to setup up a simple Windows desktop application
 
 With [vcpkg](https://github.com/Microsoft/vcpkg) on Windows
 ```
-vcpkg install cpprestsdk cpprestsdk:x64-windows
+PS> vcpkg install cpprestsdk cpprestsdk:x64-windows
 ```
 With [apt-get](https://launchpad.net/ubuntu/+source/casablanca/2.8.0-2build2) on Debian/Ubuntu
 ```
-apt-get install libcpprest-dev
+$ sudo apt-get install libcpprest-dev
 ```
 With [brew](https://github.com/Homebrew/homebrew-core/blob/master/Formula/cpprestsdk.rb) on OSX
 ```
-brew install cpprestsdk
+$ brew install cpprestsdk
 ```
 With [NuGet](https://www.nuget.org/packages/cpprestsdk.android/) on Windows for Android
 ```
-Install-Package cpprestsdk.android
+PM> Install-Package cpprestsdk.android
 ```
 With [NuGet](https://www.nuget.org/packages/cpprestsdk/) on Windows (not recommended)
 ```
-Install-Package cpprestsdk
+PM> Install-Package cpprestsdk
 ```
 More detailed instructions for setting up our NuGet packages can be located [here](How-to-use-the-C---Rest-SDK-NuGet-package).
 
-If you are developing on a platform not listed, or would prefer building from source, take a look at our instructions under [documentation](Home) on how to build Casablanca.
+If you are developing on a platform not listed (such as iOS) or would prefer building from source, take a look at our instructions under [documentation](Home) on how to build Casablanca.
 
 ### Setting up Includes and Namespaces
 
