@@ -1,7 +1,6 @@
 ## Getting Started
 
 *   [Getting started tutorial](Getting-Started-Tutorial)
-*   [How to use the C++ Rest SDK NuGet package](How-to-use-the-C---Rest-SDK-NuGet-package)
 *   [How to build for Windows](How-to-build-for-Windows)
 *   [How to build for Linux](How-to-build-for-Linux)
 *   [How to build for Mac OS X](How-to-build-for-Mac-OS-X)
