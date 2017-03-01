@@ -205,7 +205,7 @@ int main(int argc, char* argv[])
         uri_builder builder(U("/search"));
         builder.append_query(U("q"), U("cpprestsdk github"));
         return client.request(methods::GET, builder.to_string());
-    });
+    })
 
     // Handle response headers arriving.
     .then([=](http_response response)
@@ -214,7 +214,7 @@ int main(int argc, char* argv[])
 
         // Write response body into the file.
         return response.body().read_to_end(fileStream->streambuf());
-    });
+    })
 
     // Close the file stream.
     .then([=](size_t)
