@@ -2,7 +2,7 @@
 
 0\. We're in apt-get! Use `sudo apt-get install libcpprest-dev` to get all our development files. If your distribution has an outdated version, continue on to build from source.
 
-1\. Install [Ubuntu](http://www.ubuntu.com/download) 14.04 or later.  
+1\. Install [Ubuntu](http://www.ubuntu.com/download) 16.04 or later.  
 
 2\. Install all the needed build tools and libraries  
 
@@ -14,6 +14,7 @@ Minimum versions:
 - g++: 4.8
 - libboost: 1.54
 - libssl: 1.0.0
+- cmake: 3.0
 
 3\. Clone the project using Git (it will be stored in the folder "casablanca"):  
 
