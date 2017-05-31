@@ -43,7 +43,7 @@ utility::stringstream_t stream;
 json::value v1 = json::value::string(U("Hi"));
 v1.serialize(stream);
 ```
-##Accessing Data
+## Accessing Data
 
 Besides adding elements, adding fields, and writing a JSON value to a stream, there’s not much you can do with it: JSON values are not intended as a general-purpose dynamic value system, it’s purely meant for input and output of JSON data. For manipulating values, the normal C++ system should be used.
 
