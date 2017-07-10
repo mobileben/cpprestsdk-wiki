@@ -24,4 +24,11 @@ A version of the Blackjack card game. Using the http_listener used to host table
 
 ****Restweb****     
 A sample project of cpprestsdk server side . it handles GET ,PUT, DELETE and POST method .this sample is written to help beginner to get started with cpprestsdk . it uses http_listener to handle all 4 methods .
-[Restweb server side using http_listener](https://github.com/Pintulalm/Restweb) 
+[Restweb server side using http_listener](https://github.com/Pintulalm/Restweb)
+
+
+**Rest Microservice**  
+A basic [C++ micro service](https://github.com/ivanmejiarocha/micro-service) (check out branches **master** and **async_api**) based completely on cpprestsdk, it helps to the learn how to use tasks, json extractors and provide some performance tests using [WRK2](https://github.com/giltene/wrk2). The project can be loaded on Visual Studio Code and build and debugged from there. The code is accompanied be the following articles: 
+* [Modern C++ micro-service implementation + REST API](https://medium.com/audelabs/modern-c-micro-service-implementation-rest-api-b499ffeaf898) 
+* [Modern C++ micro-serivce + REST API, Part II](https://medium.com/audelabs/modern-c-micro-serivce-rest-api-part-ii-7be067440ca8)
+
