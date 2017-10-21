@@ -9,17 +9,12 @@ If you use cmd.exe, open the **Developer Command Prompt for VS2013** ([here](Set
 ## Get the source
 
 ```bash
-git clone https://github.com/Microsoft/cpprestsdk.git casablanca
+git clone https://github.com/Microsoft/cpprestsdk.git
 ```
-
-This will clone Casablanca source into a directory named _casablanca_.  
-Going forward, you will want to pull from the _master_ branch, which will always contain the last known release. The _development_ branch contains the latest work but is not stable.  
-
-If you're using PowerShell, you can now set up VC++ compiler toolset by running the **setup_ps_env_VS2013.ps1** script.  
 
 ## Build from source
 
-There are two ways you can build on Windows, from the command line or from Visual Studio. Please note the C++ Rest SDK depends on Boost and OpenSSL. The first time building in Visual Studio will take some time to download the NuGet package dependencies.  
+There are two ways you can build on Windows, from the command line or from Visual Studio. Please note the C++ Rest SDK depends on Boost and OpenSSL.
 
 ### Visual Studio solution files
 
