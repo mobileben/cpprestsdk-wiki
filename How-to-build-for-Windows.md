@@ -4,7 +4,7 @@
 
 If you use PowerShell, we recommend installing Posh-Git ([here](Posh-git) is how).  
 
-If you use cmd.exe, open the **Developer Command Prompt for VS2013** ([here](Setting-up-Visual-Studio-command-line-prompt) is how)  
+If you use cmd.exe, open the **Developer Command Prompt for VS2017** ([here](Setting-up-Visual-Studio-command-line-prompt) is how)  
 
 ## Get the source
 
