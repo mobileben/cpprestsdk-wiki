@@ -12,7 +12,7 @@ sudo apt-get install g++ git make zlib1g-dev libboost-all-dev libssl-dev cmake
 
 Minimum versions:
 - g++: 4.8
-- libboost: 1.54
+- libboost: 1.58
 - libssl: 1.0.0
 - cmake: 3.0
 
@@ -27,7 +27,7 @@ Going forward, you will want to pull from the _master_ branch, which will always
 4\. Build the SDK in Debug mode
 
 ```bash
-cd casablanca/Release
+cd casablanca
 mkdir build.debug
 cd build.debug
 cmake .. -DCMAKE_BUILD_TYPE=Debug
@@ -40,7 +40,7 @@ You can also build the static libraries instead of the shared libraries by addin
 5\. After building you can run the tests by executing the test_runner inside the "Binaries" folder:  
 
 ```bash
-cd Binaries
+cd Release/Binaries
 ./test_runner *_test.so
 ```
 
