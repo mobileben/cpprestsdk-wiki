@@ -16,6 +16,7 @@ brew install cmake git boost openssl ninja
 
 ```
 git clone https://github.com/Microsoft/cpprestsdk.git casablanca
+git submodule update --init
 ```
 
 Going forward, you will want to pull from the _master_ branch, which will always contain the last known release.  
