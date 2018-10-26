@@ -31,7 +31,7 @@ cd casablanca
 mkdir build.debug
 cd build.debug
 cmake .. -DCMAKE_BUILD_TYPE=Debug
-make
+ninja
 ```
 
 You can build the Release version by specifying -DCMAKE_BUILD_TYPE=Release on the cmake line instead.  
