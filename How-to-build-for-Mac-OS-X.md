@@ -1,6 +1,6 @@
 # How to setup, build, and run tests on OSX
 
-1\. Ensure you have the most recent version of OSX and Xcode (As of this writing, 10.9.2 and 5.0.2 respectively).  
+1\. Ensure you have the most recent version of OSX and Xcode (As of this writing, 10.13.x and 10.x respectively).  
 
 2\. You will need to install the development files for Boost and OpenSSL. Our recommendation is using the Homebrew package manager:  
 
@@ -9,7 +9,7 @@
 3\. If you are using the Homebrew package manager, install the required development tools:  
 
 ```
-brew install cmake git openssl boost libiconv
+brew install cmake git boost openssl ninja
 ```
 
 4\. Clone the project using Git (it will be stored in the folder "casablanca"):  
@@ -27,7 +27,7 @@ cd casablanca
 mkdir build.debug
 cd build.debug
 cmake ../Release -DCMAKE_BUILD_TYPE=Debug
-make -j 4
+ninja
 ```
 
 You can build the Release version by replacing every instance of Debug with Release in the previous directions.  
