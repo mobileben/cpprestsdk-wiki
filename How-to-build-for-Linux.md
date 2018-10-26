@@ -7,14 +7,14 @@
 2\. Install all the needed build tools and libraries  
 
 ```bash
-sudo apt-get install g++ git make zlib1g-dev libboost-all-dev libssl-dev cmake
+sudo apt-get install g++ git libboost-atomic-dev libboost-thread-dev libboost-system-dev libboost-date-time-dev libboost-regex-dev libboost-filesystem-dev libboost-random-dev libboost-chrono-dev libboost-serialization-dev libwebsocketpp-dev openssl libssl-dev ninja-build
 ```
 
 Minimum versions:
 - g++: 4.8
 - libboost: 1.58
 - libssl: 1.0.0
-- cmake: 3.0
+- cmake: 3.1
 
 3\. Clone the project using Git (it will be stored in the folder "casablanca"):  
 
