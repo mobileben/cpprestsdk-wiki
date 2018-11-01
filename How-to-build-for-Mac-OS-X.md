@@ -25,7 +25,6 @@ Going forward, you will want to pull from the _master_ branch, which will always
 5\. Build the SDK in Debug mode  
 
 ```
-cd casablanca
 mkdir build.debug
 cd build.debug
 cmake ../Release -DCMAKE_BUILD_TYPE=Debug
