@@ -16,6 +16,7 @@ brew install cmake git boost openssl ninja
 
 ```
 git clone https://github.com/Microsoft/cpprestsdk.git casablanca
+cd casablanca
 git submodule update --init
 ```
 
