@@ -30,7 +30,7 @@ Going forward, you will want to pull from the _master_ branch, which will always
 cd casablanca
 mkdir build.debug
 cd build.debug
-cmake .. -DCMAKE_BUILD_TYPE=Debug
+cmake -G Ninja .. -DCMAKE_BUILD_TYPE=Debug
 ninja
 ```
 
