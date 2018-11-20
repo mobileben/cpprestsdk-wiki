@@ -44,7 +44,7 @@ cd Release/Binaries
 ./test_runner *_test.so
 ```
 
-6\. To install on your system run: sudo make install
+6\. To install on your system run: sudo ninja install
 
 7\. You can check your first program by compiling it using necessary command line arguments 
 ```bash
